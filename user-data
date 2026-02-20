@@ -1,0 +1,6 @@
+#cloud-config
+user: fedora
+password: "fedora"
+chpasswd: { expire: False }
+hostname: fedora
+ssh_pwauth: True
